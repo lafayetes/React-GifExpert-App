@@ -4,7 +4,7 @@ interface GifItemProps {
     title: string;
 }
 
-export const GifItem: React.FC<GifItemProps> = ({ id, url, title }) => {
+export const GifItem: React.FC<GifItemProps> = ({  url, title }) => {
     
     return (
         <div className="card">
