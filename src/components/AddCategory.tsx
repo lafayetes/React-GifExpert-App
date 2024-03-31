@@ -3,7 +3,7 @@ import { ChangeEvent, FormEvent, useState } from "react"
 
 export const AddCategory = ({onNewCategory}:any) => {
     
-    const [inputValue, setinputValue] = useState('One Punch');
+    const [inputValue, setinputValue] = useState('');
 
     const onInputChange = (event: ChangeEvent<HTMLInputElement>) => {
 
